@@ -1,0 +1,31 @@
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - "bin/**/*"
+    - "vendor/**/*"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+    - "*.gemspec"
+
+Metrics/ClassLength:
+  Exclude:
+    - "lib/active_model_changeset/changeset.rb"
+    - "lib/active_model_changeset/base.rb"
+
+Metrics/MethodLength:
+  Exclude:
+    - "lib/active_model_changeset/changeset.rb"
+    - "lib/active_model_changeset/base.rb"

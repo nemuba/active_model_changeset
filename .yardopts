@@ -1,0 +1,13 @@
+--readme README.md
+--title "ActiveModelChangeset Documentation"
+--charset utf-8
+--markup markdown
+--output-dir doc
+--protected
+--no-private
+--hide-void-return
+lib/**/*.rb
+-
+README.md
+CHANGELOG.md
+LICENSE.txt
